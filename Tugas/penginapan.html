@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Santika - Landing Page</title>
+  <!-- Link ke CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS for Background -->
+  <style>
+    body {
+      background-color: aquamarine; /* Light gray background */
+    }
+    footer {
+      background-color: #343a40; /* Dark background for footer */
+      color: blue;
+    }
+    .carousel-inner img {
+      height: 500px; /* Set fixed height for carousel images */
+      object-fit: cover; /* Ensure images are cropped to fit */
+    }
+  </style>
+  <!-- Footer -->
+<footer class="bg-light text-center py-3">
+  <p>&copy; 2024 Hotel Santika. All rights reserved.</p>
+  <div>
+    <a href="https://www.instagram.com/assyifakhoirunnisaputri/profilecard/?igsh=MXF1eTFuNWVsNTBpNg==" target="_blank" class="text-dark mx-2">
+      <i class="fab fa-instagram fa-lg"></i>
+    </a>
+    <a href="https://wa.me/qr/F7UCY3TCCPY6B1" target="_blank" class="text-dark mx-2">
+      <i class="fab fa-whatsapp fa-lg"></i>
+    </a>
+    <a href="https://www.tiktok.com/@syif.aa30?_t=ZS-8sYqKlze8wh&_r=1" target="_blank" class="text-dark mx-2">
+      <i class="fab fa-tiktok fa-lg"></i>
+    </a>
+  </div>
+</footer>
+</head>
+<body>
+  <!-- Navigasi Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hotel Santika</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cabang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promosi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image Slider (Carousel) -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/foto4.jpeg" class="d-block w-100" alt="Hotel Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/foto4.jpeg" class="d-block w-100" alt="Hotel Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/foto6.jpeg" class="d-block w-100" alt="Hotel Image 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Deskripsi Perusahaan -->
+  <section class="container mt-5">
+    <h2>Selamat Datang di Hotel Santika</h2>
+    <p>Hotel Santika adalah penginapan terbaik dengan fasilitas lengkap, nyaman, dan harga terjangkau. Kami memiliki cabang di berbagai kota besar untuk melayani Anda.</p>
+  </section>
+
+  <!-- Daftar Cabang -->
+  <section class="container mt-4">
+    <h3>Cabang Kami</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/foto1.jpeg" class="card-img-top" alt="Cabang 1">
+          <div class="card-body">
+            <h5 class="card-title">Cabang Jakarta</h5>
+            <p class="card-text">Alamat: Jl. Sumpah Pemuda No. 5</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/foto2.jpeg" class="card-img-top" alt="Cabang 2">
+          <div class="card-body">
+            <h5 class="card-title">Cabang Bali</h5>
+            <p class="card-text">Alamat: Jl. Pandawa No. 26</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/foto3.jpeg" class="card-img-top" alt="Cabang 3">
+          <div class="card-body">
+            <h5 class="card-title">Cabang Yogyakarta</h5>
+            <p class="card-text">Alamat: Jl. Malioboro No. 8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabel Promosi -->
+  <section class="container mt-4">
+    <h3>Promo Spesial Kami</h3>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Paket</th>
+          <th scope="col">Harga</th>
+          <th scope="col">Waktu</th>
+          <th scope="col">Syarat & Ketentuan</th>
+          <th scope="col">Deskripsi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Paket Liburan</td>
+          <td>Rp 3.500.000</td>
+          <td>Desember 2024</td>
+          <td>Booking minimal 2 malam</td>
+          <td>Paket liburan dengan fasilitas lengkap</td>
+        </tr>
+        <tr>
+          <td>Paket Keluarga</td>
+          <td>Rp 2.000.000</td>
+          <td>Januari 2025</td>
+          <td>Termasuk sarapan</td>
+          <td>Promo khusus untuk keluarga</td>
+        </tr>
+        <tr>
+          <td>Paket Honeymoon</td>
+          <td>Rp 5.000.000</td>
+          <td>Februari 2025</td>
+          <td>Voucher makan malam</td>
+          <td>Paket khusus untuk pasangan baru menikah</td>
+        </tr>
+        <!-- Tambahkan lebih banyak data -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2024 Hotel Santika. All rights reserved.</p>
+  </footer>
+
+  <!-- Script untuk Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
